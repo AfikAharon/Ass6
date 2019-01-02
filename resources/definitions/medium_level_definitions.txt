@@ -1,0 +1,79 @@
+# Level 1
+# Island
+
+START_LEVEL
+level_name: Welcome To The Island
+ball_velocities:-5,500
+background:image(background_images/theisland.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/insland_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:9
+START_BLOCKS
+-
+-
+-----GGGGG-----
+------BBB------
+-------C-------
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+# Level 2
+# full moon
+
+
+START_LEVEL
+level_name:Full Moon
+ball_velocities:-60,500 -30,500 -15,500 0,500 15,500 30,500 60,500
+background:image(background_images/fullmoon.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/fullmoon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:34
+START_BLOCKS
+-
+-
+-
+GGGGGC----BBBB-
+BBBBB-C---GGG--
+GGGG---C--BB---
+BBB-----C-G----
+GG-------C-----
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Joker
+
+START_LEVEL
+level_name:The Joker
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/thejoker.jpg)
+paddle_speed:630
+paddle_width:250
+block_definitions:definitions/joker_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:40
+START_BLOCKS
+-
+-
+-
+-
+-----BGBGBGBGBG
+-----CCCCCCCCCC
+-----GGBBBBBBBB
+-----BBGGGGGGGG
+END_BLOCKS
+END_LEVEL
